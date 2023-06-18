@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="login.css">
+  <title>Login Page with Animation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #baa7e4;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 100px auto;
+      background-color: hsl(0, 20%, 95%);
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      position: relative;
+    }
+
+    .container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .form-group input {
+      width: 90%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .form-group input:focus {
+      outline: none;
+      border-color: #7b9de1;
+    }
+
+    .btn {
+      background-color: #4CAF50;
+      /* text-decoration: none; */
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #45a049;
+    }
+
+    .error-message {
+      display: none;
+      background-color: #f44336;
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    .error-message.show {
+      display: block;
+    }
+
+    .animation {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      text-align: center;
+    }
+
+    .animation img {
+      width: 100px;
+      animation: spin 2s linear infinite;
+    }
+
+
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="error-message" id="errorMessage"></div>
+      <div class="animation" id="animation" style="display: none;">
+        <img src="loading.gif" alt="Loading">
+      </div>
+     <a href="./index.html" class="btn"> Login</a>
+    </form>
+    
+  </div>
+
+
+  <script>
+    document.getElementById('loginForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+      var username = document.getElementById('username').value;
+      var password = document.getElementById('password').value;
+      var errorMessage = document.getElementById('errorMessage');
+      </script>
+      

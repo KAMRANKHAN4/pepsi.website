@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup page</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Signup Animation Page</title>
+      <style>
+        body {
+          font-family: Arial, sans-serif;
+          background-image: url(https://wallpaperaccess.com/full/3147070.jpg);
+
+        }
+    
+        .container {
+          max-width: 500px;
+          margin: 100px auto;
+          background-color: #fff;
+          border-radius: 5px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          padding: 20px;
+          position: relative;
+        }
+    
+        .container h2 {
+          text-align: center;
+          margin-bottom: 20px;
+        }
+    
+        .form-group {
+          margin-bottom: 20px;
+        }
+    
+        .form-group label {
+          display: block;
+          margin-bottom: 5px;
+          font-weight: bold;
+        }
+    
+        .form-group input {
+          width: 80%;
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 10px;
+        }
+    
+        .form-group input:focus {
+          outline: none;
+          border-color: #7b9de1;
+        }
+    
+        .btn-signup {
+          background-color: #4CAF50;
+          color: #f5f0f0;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          font-weight: bold;
+          transition: background-color 0.3s;
+          width: 80%;
+          text-align: center;
+        }
+    
+        .btn-signup:hover {
+          background-color: #45a049;
+        }
+    
+        .animation {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 100%;
+          text-align: center;
+        }
+        .btn{
+          background-color: #4CAF50;
+      text-decoration: none;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s;
+
+        }
+    
+        .animation img {
+          width: 100px;
+          animation: spin 2s linear infinite;
+        }
+    
+        @keyframes spin {
+          0% {
+            transform: rotate(0deg);
+          }
+          100% {
+            transform: rotate(360deg);
+          }
+        }
+    
+        .fade-out {
+          animation: fadeOut 0.3s forwards;
+        }
+    
+        @keyframes fadeOut {
+          0% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+          }
+        }
+    
+        .fade-in {
+          animation: fadeIn 0.3s forwards;
+        }
+    
+        @keyframes fadeIn {
+          0% {
+            opacity: 0;
+          }
+          100% {
+            opacity: 1;
+          }
+        }
+      </style>
+    </head>
+    <body>
+      <div class="container">
+        <h2>Signup</h2>
+        <form id="signupForm"> 
+          <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+          </div>
+          <a href="./index.html" class="btn">Signup</a>
+        </form>
+      </div>
+      </div>
+
+       </body>
+</html>

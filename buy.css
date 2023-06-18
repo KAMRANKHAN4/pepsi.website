@@ -1,0 +1,67 @@
+.container {
+  overflow: hidden;
+}
+
+.image-list {
+  display: flex;
+}
+
+.image-item {
+  position: relative;
+  flex: 1;
+  
+}
+.five{
+  margin-left: 45px;
+}
+.seven{
+  margin-left: 50px;
+}
+.six{
+  
+  
+}
+.container.image-list.image-item.red:hover{
+  background-color: aqua;
+  width: 100px;
+}
+.image-item img {
+  width: auto;
+  height: 200px;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+  opacity: 2;
+  transition: opacity 05s;
+}
+
+.image-item:hover .image-overlay {
+
+  opacity: 6;
+  transform: translateY(100%);
+}
+
+.image-overlay h3,
+.image-overlay p {
+  margin: 0;
+  padding: 0;
+}
+
+.image-overlay h3 {
+  font-size: 20px;
+}
+
+.image-overlay p {
+  font-size: 14px;
+}

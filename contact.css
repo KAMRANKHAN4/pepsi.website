@@ -1,0 +1,193 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    background-image: url(https://wallpaperaccess.com/full/912904.jpg);
+
+}
+body{
+}
+.logoo{
+    height: 100px;
+    width: 180px;
+    transition: 0.5s;
+}
+.navbar{
+    /* position: fixed; */
+    width: 1329px;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+.sub{
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    
+}
+
+footer {
+background-color: #0065C3;
+height: 230px;
+}
+.list{
+    display: flex;
+    gap: 100px;
+    margin-top: -100px;
+    margin-left: 500px;
+}
+.inlogo:hover{
+    transform: rotate(360deg);
+
+    animation: spin 0.5s linear ;
+    /* animation-delay: 0.9s; */
+
+}
+.inlogo {
+    /* width:130px ; */
+    /* margin-top: 50px; */
+}
+.sus:hover{
+    /* height: 50px; */
+    background-color: #000;
+    border: none;
+    border: 1px solid wheat;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 15px;
+    border-radius: 40px;
+}
+.menu-list a:hover{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-weight: 200;
+    font-size: large;
+    border: none;
+    height: 50px;
+    width: 80%;
+    border-radius: 10px;
+     color: #fff;
+    font-size: 23px;
+    background-color: #2b3ff2;
+}
+.icons.i :hover{
+    animation: spin 1s ;
+ width: 200px;
+
+
+
+}
+.but:hover{
+    height: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+     background-color:  rgb(189, 189, 189);
+}
+.but{
+    width: 150px;
+    height: 29px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    border-radius: 20px;
+    color: black;
+     background-color:  rgb(198, 229, 231);
+
+
+}
+.sus {
+    margin-top: -15px;
+    margin-left: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px 15px 15px 15px;
+    color: rgb(255, 255, 255);
+    background-color: #0065C3;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.icons {
+
+    /* margin-left: 20px; */
+    display: flex;
+    gap: 30px;
+    /* margin-top: -50px; */
+}
+
+i {
+    color: #ffffff;
+    font-size: 30px;
+
+}
+
+
+.list4 {
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    flex-direction: column;
+}
+.fa-brands:hover{
+    animation: spin 1s ;
+    transition: 0.9s;
+}
+.icons.i:hover{
+    animation: spin 1s ;
+    color: #0065C3;
+}
+i {
+    color: #000000;
+    font-size: 30px;
+
+}
+.navbar-menu ul li a{
+    
+    text-decoration: none;
+}
+
+.navbar-menu {
+    text-decoration: none   ;
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.a{
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #0065C3;
+    display: flex;
+    text-decoration: none   ;
+    align-items: center;
+    height: 80px;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+
+
+.ii:hover{
+    color: rgb(0, 68, 255);
+    background-color: brown ;
+     font-size: 20px;
+     border-radius: 20px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.a{
+    /* display: flex; */
+    margin-left: 100px;
+    text-decoration: none;
+
+}
+.logoo:hover{
+    transform: rotate(360deg);
+    animation: spin 1s linear infinite;
+    animation-delay: 0.2s;
+}
