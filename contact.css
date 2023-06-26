@@ -30,6 +30,7 @@ body{
 footer {
 background-color: #0065C3;
 height: 230px;
+width: 100%;
 }
 .list{
     display: flex;
