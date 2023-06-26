@@ -15,7 +15,7 @@
     border-top: 16px solid #3498db;
     /* Blue */
     border-radius: 50%;
-    width:9rem;
+    width: 9rem;
     position: relative;
     height: 9rem;
     animation: spin 1s linear infinite;
@@ -38,6 +38,7 @@
     height: 100px;
     width: 180px;
 }
+
 .logoo:hover {
     transform: rotate(360deg);
     animation: spin 1s linear infinite;
@@ -82,8 +83,8 @@
 }
 
 .img1 {
-    margin-top: -650px;
-    width: 100%;
+     margin-top: -620px;
+    width: 100%; 
 }
 
 .black {
@@ -103,12 +104,14 @@ body {
     /* margin-left: -50px; */
 }
 
-.navbar-menu li a:hover{
+.navbar-menu li a:hover {
     cursor: pointer;
-    color: #3498db;
+    color: #3a6079;
     font-style: italic;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 10px;
-    background-color: #ffffff;
+    background-color: #5653ae;
     border-radius: 20px 20px 20px 20px;
 }
 
@@ -130,8 +133,9 @@ body {
     display: flex;
     justify-content: center;
 }
-.picture:hover{
-    animation: spin 1s ;
+
+.picture:hover {
+    animation: spin 1s;
 
 }
 
@@ -224,7 +228,7 @@ body {
 }
 
 .menu-container {
-    display: flex;
+    /* display: flex; */
     height: 100vh;
 }
 
@@ -261,16 +265,17 @@ body {
     transform: translateX(-500px);
     transition: transform 0.3s;
     z-index: 1;
-    
+
 }
-.menu-list{
+
+.menu-list {
     /* margin-top: -150px; */
     background-color: #bddefa;
     height: 630px;
 }
 
 .menu-list li a {
-    color: #000 !important; 
+    color: #000 !important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
     font-weight: 200;
@@ -355,17 +360,20 @@ footer {
     background-color: #0065C3;
     height: 200px;
 }
-.inlogo:hover{
+
+.inlogo:hover {
     transform: rotate(360deg);
 
-    animation: spin 0.5s linear ;
+    animation: spin 0.5s linear;
     /* animation-delay: 0.9s; */
 
 }
+
 .inlogo {
     /* width: ; */
 }
-.sus:hover{
+
+.sus:hover {
     /* height: 50px; */
     background-color: #000;
     border: none;
@@ -374,7 +382,8 @@ footer {
     font-size: 15px;
     border-radius: 40px;
 }
-.menu-list a:hover{
+
+.menu-list a:hover {
     font-family: 'Segoe UI', Tahoma, sans-serif;
     font-weight: 200;
     font-size: large;
@@ -382,7 +391,7 @@ footer {
     height: 50px;
     width: 80%;
     border-radius: 10px;
-     color: #fff;
+    color: #fff;
     font-size: 23px;
     background-color: #2b3ff2;
 }
@@ -419,9 +428,23 @@ i {
     height: 150px;
     flex-direction: column;
 }
-.fa-brands:hover{
-    animation: spin 1s ;
+
+.fa-brands:hover {
+    animation: spin 1s;
     transition: 0.9s;
 }
 
 
+
+
+@media (max-width:390px) {
+    .menu-container{
+        height: 70%;
+        background-color: #000000;
+
+    }
+    .img{
+        height: 30%;
+    }
+    
+}
